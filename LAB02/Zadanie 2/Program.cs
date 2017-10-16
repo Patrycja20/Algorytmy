@@ -14,6 +14,7 @@ namespace Zadanie_2
                     if (A[i] == A[k]) ile1++;
                 }
                 if (ile1 > ile) { ile = ile1; p = A[i]; }
+                ile1 = 0;
             }
             return p;
         }
