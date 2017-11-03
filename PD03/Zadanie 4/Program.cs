@@ -45,7 +45,7 @@ namespace Zadanie_4
 
         static void Main(string[] args)
         {
-            double[] nominal_value = { 1, 2, 5 };
+            double[] nominal_value = { 1, 2,5 };
             Console.WriteLine("Ilość dostępnych permutacji reszty dla {0} to: {1}", 5, Permutations(nominal_value, 5));
 
 
